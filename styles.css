@@ -1,0 +1,85 @@
+#first-head{
+    color: whitesmoke;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(95, 95, 95);
+    color: whitesmoke;
+    font-size: larger;
+}
+
+img{
+    width: 18rem;
+    height: 12rem;
+    margin-left: 12px;
+    border-radius: 12px;
+}
+
+.pics{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#first-image{
+    background-image: url("images/person1.jpg");
+}
+
+#second-image{
+    background-image: url("images/person2.jpg");
+}
+
+#third-image{
+    background-image: url("images/person3.jpg");
+}
+
+.reviews{
+    max-width: 18rem;
+    display: inline-block;
+    margin: 12px;
+
+}
+
+#container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contacts{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+form{
+    border: 1px solid whitesmoke;
+    padding: 12px;
+    width: 50%;
+    
+
+}
+
+input{
+    padding: 6px;
+    background-color:rgb(95, 95, 95);
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+
+button{
+    background-color: aquamarine;
+    padding: 14px;
+    width:12rem;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+    border: 1px solid whitesmoke;
+}
+
+h1{
+    font-family: "Sofia", sans-serif;
+}
